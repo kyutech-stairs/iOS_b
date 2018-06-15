@@ -14,6 +14,9 @@
 		E698B1ED20D3BB6500840D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E698B1EB20D3BB6500840D66 /* LaunchScreen.storyboard */; };
 		E698B1F820D3BB6500840D66 /* iOS_b_2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698B1F720D3BB6500840D66 /* iOS_b_2018Tests.swift */; };
 		E698B20320D3BB6500840D66 /* iOS_b_2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698B20220D3BB6500840D66 /* iOS_b_2018UITests.swift */; };
+		E698B21220D3BE0500840D66 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E698B21120D3BE0500840D66 /* First.storyboard */; };
+		E698B21520D3C02600840D66 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E698B21420D3C02600840D66 /* Second.storyboard */; };
+		E698B21820D3C27100840D66 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E698B21720D3C27100840D66 /* Third.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E698B1FE20D3BB6500840D66 /* iOS_b_2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_b_2018UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E698B20220D3BB6500840D66 /* iOS_b_2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_b_2018UITests.swift; sourceTree = "<group>"; };
 		E698B20420D3BB6500840D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E698B21120D3BE0500840D66 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		E698B21420D3C02600840D66 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		E698B21720D3C27100840D66 /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		E698B1E120D3BB6300840D66 /* iOS_b_2018 */ = {
 			isa = PBXGroup;
 			children = (
+				E698B21620D3C25B00840D66 /* Third */,
+				E698B21320D3C01100840D66 /* Second */,
+				E698B21020D3BDC400840D66 /* First */,
 				E698B1E220D3BB6300840D66 /* AppDelegate.swift */,
 				E698B1E420D3BB6300840D66 /* ViewController.swift */,
 				E698B1E620D3BB6300840D66 /* Main.storyboard */,
@@ -123,6 +132,30 @@
 				E698B20420D3BB6500840D66 /* Info.plist */,
 			);
 			path = iOS_b_2018UITests;
+			sourceTree = "<group>";
+		};
+		E698B21020D3BDC400840D66 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				E698B21120D3BE0500840D66 /* First.storyboard */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		E698B21320D3C01100840D66 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				E698B21420D3C02600840D66 /* Second.storyboard */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		E698B21620D3C25B00840D66 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				E698B21720D3C27100840D66 /* Third.storyboard */,
+			);
+			path = Third;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +265,9 @@
 				E698B1ED20D3BB6500840D66 /* LaunchScreen.storyboard in Resources */,
 				E698B1EA20D3BB6500840D66 /* Assets.xcassets in Resources */,
 				E698B1E820D3BB6300840D66 /* Main.storyboard in Resources */,
+				E698B21520D3C02600840D66 /* Second.storyboard in Resources */,
+				E698B21820D3C27100840D66 /* Third.storyboard in Resources */,
+				E698B21220D3BE0500840D66 /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
