@@ -17,6 +17,7 @@
 		E698B21220D3BE0500840D66 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E698B21120D3BE0500840D66 /* First.storyboard */; };
 		E698B21520D3C02600840D66 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E698B21420D3C02600840D66 /* Second.storyboard */; };
 		E698B21820D3C27100840D66 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E698B21720D3C27100840D66 /* Third.storyboard */; };
+		F9846A7B20D3CE51005F9450 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9846A7A20D3CE51005F9450 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E698B21120D3BE0500840D66 /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
 		E698B21420D3C02600840D66 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		E698B21720D3C27100840D66 /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
+		F9846A7A20D3CE51005F9450 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				E698B21120D3BE0500840D66 /* First.storyboard */,
+				F9846A7A20D3CE51005F9450 /* FirstViewController.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9846A7B20D3CE51005F9450 /* FirstViewController.swift in Sources */,
 				E698B1E520D3BB6300840D66 /* ViewController.swift in Sources */,
 				E698B1E320D3BB6300840D66 /* AppDelegate.swift in Sources */,
 			);
