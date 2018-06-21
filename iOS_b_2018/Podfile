@@ -8,6 +8,7 @@ target 'iOS_b_2018' do
   # Pods for iOS_b_2018
 
   pod "SwiftyJSON","~>4.0"
+  pod "Alamofire", "4.7.2"
 
   target 'iOS_b_2018Tests' do
     inherit! :search_paths
