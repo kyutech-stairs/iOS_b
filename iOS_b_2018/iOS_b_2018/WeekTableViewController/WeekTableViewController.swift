@@ -10,6 +10,17 @@ import UIKit
 
 class WeekTableViewController: UITableViewController {
 
+    
+    
+    var urlString = "http://api.openweathermap.org/data/2.5/forecast?units=metric&q=Tokyo&APPID={各自設定}"
+    var cellItems = NSMutableArray()
+    let cellNum = 10
+    var selectedInfo : String?
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
