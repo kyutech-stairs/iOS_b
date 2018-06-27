@@ -10,6 +10,7 @@
 		0FE2DCED30EDE3315101C7BB /* Pods_iOS_b_2018UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AEC9BF5912F2E358624EAF /* Pods_iOS_b_2018UITests.framework */; };
 		7981A99624E7706B49D80D95 /* Pods_iOS_b_2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46843FF8023652EE048208AB /* Pods_iOS_b_2018.framework */; };
 		900AB012C205C746276B3A22 /* Pods_iOS_b_2018Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5230783C9CE7014419C00480 /* Pods_iOS_b_2018Tests.framework */; };
+		A72DB2BD20E3960200BBB5BA /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DB2BC20E3960200BBB5BA /* RecommendViewController.swift */; };
 		E698B1E320D3BB6300840D66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698B1E220D3BB6300840D66 /* AppDelegate.swift */; };
 		E698B1E520D3BB6300840D66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698B1E420D3BB6300840D66 /* ViewController.swift */; };
 		E698B1E820D3BB6300840D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E698B1E620D3BB6300840D66 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		30812451F3AED578F0E982C7 /* Pods-iOS_b_2018UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_b_2018UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_b_2018UITests/Pods-iOS_b_2018UITests.release.xcconfig"; sourceTree = "<group>"; };
 		46843FF8023652EE048208AB /* Pods_iOS_b_2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_b_2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5230783C9CE7014419C00480 /* Pods_iOS_b_2018Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_b_2018Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72DB2BC20E3960200BBB5BA /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		A7C3B7D45DBC41A514BFCCAA /* Pods-iOS_b_2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_b_2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_b_2018/Pods-iOS_b_2018.release.xcconfig"; sourceTree = "<group>"; };
 		D1AEC9BF5912F2E358624EAF /* Pods_iOS_b_2018UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_b_2018UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E698B1DF20D3BB6300840D66 /* iOS_b_2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_b_2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A72DB2BB20E3950F00BBB5BA /* RecommendViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A72DB2BC20E3960200BBB5BA /* RecommendViewController.swift */,
+			);
+			path = RecommendViewController;
+			sourceTree = "<group>";
+		};
 		E698B1D620D3BB6300840D66 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 		E698B1E120D3BB6300840D66 /* iOS_b_2018 */ = {
 			isa = PBXGroup;
 			children = (
+				A72DB2BB20E3950F00BBB5BA /* RecommendViewController */,
 				E698B21620D3C25B00840D66 /* Third */,
 				E698B21320D3C01100840D66 /* Second */,
 				E698B21020D3BDC400840D66 /* First */,
@@ -417,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9846A7B20D3CE51005F9450 /* FirstViewController.swift in Sources */,
+				A72DB2BD20E3960200BBB5BA /* RecommendViewController.swift in Sources */,
 				E698B1E520D3BB6300840D66 /* ViewController.swift in Sources */,
 				E698B1E320D3BB6300840D66 /* AppDelegate.swift in Sources */,
 			);
