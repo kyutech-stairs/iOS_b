@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0FE2DCED30EDE3315101C7BB /* Pods_iOS_b_2018UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AEC9BF5912F2E358624EAF /* Pods_iOS_b_2018UITests.framework */; };
+		1E00285920E3968400056053 /* WeekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E00285820E3968400056053 /* WeekTableViewController.swift */; };
 		7981A99624E7706B49D80D95 /* Pods_iOS_b_2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46843FF8023652EE048208AB /* Pods_iOS_b_2018.framework */; };
 		900AB012C205C746276B3A22 /* Pods_iOS_b_2018Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5230783C9CE7014419C00480 /* Pods_iOS_b_2018Tests.framework */; };
 		E698B1E320D3BB6300840D66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698B1E220D3BB6300840D66 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E00285820E3968400056053 /* WeekTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewController.swift; sourceTree = "<group>"; };
 		30812451F3AED578F0E982C7 /* Pods-iOS_b_2018UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_b_2018UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_b_2018UITests/Pods-iOS_b_2018UITests.release.xcconfig"; sourceTree = "<group>"; };
 		46843FF8023652EE048208AB /* Pods_iOS_b_2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_b_2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5230783C9CE7014419C00480 /* Pods_iOS_b_2018Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_b_2018Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E00285720E3962500056053 /* WeekTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E00285820E3968400056053 /* WeekTableViewController.swift */,
+			);
+			path = WeekTableViewController;
+			sourceTree = "<group>";
+		};
 		2DD2044AFBAD7DC9C6C50AEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 		E698B1E120D3BB6300840D66 /* iOS_b_2018 */ = {
 			isa = PBXGroup;
 			children = (
+				1E00285720E3962500056053 /* WeekTableViewController */,
 				E698B21620D3C25B00840D66 /* Third */,
 				E698B21320D3C01100840D66 /* Second */,
 				E698B21020D3BDC400840D66 /* First */,
@@ -419,6 +430,7 @@
 				F9846A7B20D3CE51005F9450 /* FirstViewController.swift in Sources */,
 				E698B1E520D3BB6300840D66 /* ViewController.swift in Sources */,
 				E698B1E320D3BB6300840D66 /* AppDelegate.swift in Sources */,
+				1E00285920E3968400056053 /* WeekTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
